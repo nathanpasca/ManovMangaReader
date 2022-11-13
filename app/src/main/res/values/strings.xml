@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ManovManga</string>
+    <string name="home_page_title">Manga Novel Reader</string>
+    <string name="titlelogo">TitleLogo</string>
+    <string name="homepage_logo">Homepage Logo</string>
+    <string name="title_activity_manga_page">MangaPageActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="homepage_manga">Manga</string>
+    <string name="homepage_novel">Novel</string>
+    <string name="novel_full_button">Novel Full</string>
+    <string name="royalroad_button">Royal Road</string>
+    <string name="mangadex_button">Mangadex</string>
+    <string name="manga_plus_button">Manga Plus</string>
+
+    //firebase below
+    <string name="firebase_auth">Firebase Auth</string>
+    <string name="sign_in">Sign-In</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="send_email">Send Email</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="logout">Logout</string>
+    <string name="sign_in_button">Sign-In</string>
+    <string name="already_registered_sign_in">Already Registered? Sign In</string>
+    <string name="not_registered_register_here">Not Registered? Register Here</string>
+    <string name="logout_here">Logout Here</string>
+</resources>

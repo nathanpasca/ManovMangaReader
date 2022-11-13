@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "83796941757",
+    "firebase_url": "https://manov-13a5c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "manov-13a5c",
+    "storage_bucket": "manov-13a5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83796941757:android:b28bea32dc433414f3d0d4",
+        "android_client_info": {
+          "package_name": "com.example.manovmanga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83796941757-trnkjm10e3ciemhs7m37omlhuhlb9kqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgt4OR7FP8uPi0MsRoJhZVChS85YO6UXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83796941757-trnkjm10e3ciemhs7m37omlhuhlb9kqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83796941757:android:edc05ad958e2ebf9f3d0d4",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83796941757-trnkjm10e3ciemhs7m37omlhuhlb9kqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgt4OR7FP8uPi0MsRoJhZVChS85YO6UXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83796941757-trnkjm10e3ciemhs7m37omlhuhlb9kqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

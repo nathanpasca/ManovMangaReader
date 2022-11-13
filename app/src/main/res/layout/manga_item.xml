@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="16dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/novelDescriptionTextView"
+        app:layout_constraintStart_toEndOf="@+id/novelDescriptionTextView">
+
+        <ImageView
+            android:id="@+id/mangaImageView"
+            android:layout_width="106dp"
+            android:layout_height="146dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/mangaTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/mangaImageView"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/mangaAuthorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Author"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/mangaTitleTextView"
+            app:layout_constraintTop_toBottomOf="@+id/mangaTitleTextView" />
+
+        <TextView
+            android:id="@+id/mangaStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="Status"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/mangaImageView"
+            app:layout_constraintTop_toBottomOf="@+id/mangaAuthorTextView" />
+
+        <TextView
+            android:id="@+id/mangaCategoryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:text="Category"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/mangaImageView"
+            app:layout_constraintTop_toBottomOf="@+id/mangaAuthorTextView" />
+
+        <TextView
+            android:id="@+id/mangaDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:text="Description"
+            android:padding="10dp"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mangaImageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
